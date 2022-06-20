@@ -3,6 +3,7 @@ import { Sidebar } from "./components/Sidebar";
 
 import styles from "./App.module.css";
 import "./global.css";
+import { Post } from "./components/Post";
 
 export function App() {
   return (
@@ -11,7 +12,8 @@ export function App() {
       <div className={styles.wrapper}>
         <Sidebar />
         <main>
-          <h2>Area dos posts</h2>
+          <Post />
+          <Post />
         </main>
       </div>
     </>
