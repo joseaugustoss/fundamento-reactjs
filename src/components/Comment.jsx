@@ -14,17 +14,20 @@ export function Comment() {
                 Cerca de 1h atrás
               </time>
             </div>
+
             <button title="Deletar comentário">
-              <Trash sise={20} />
+              <Trash sise={24} />
             </button>
           </header>
           <p>Muito bom Devon, parabéns!! 👏👏</p>
         </div>
+        <footer>
+          <button>
+            <ThumbsUp />
+            Aplaudir <span>20</span>
+          </button>
+        </footer>
       </div>
-      <footer>
-        <ThumbsUp />
-        Aplaudir <span>20</span>
-      </footer>
     </div>
   );
 }
